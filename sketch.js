@@ -67,6 +67,9 @@ function handleDropdownChange() {
   } else if (selected === '第三周') {
     iframe.attribute('src', 'https://example.com/third-week'); // 替換為第三周的實際 URL
     iframe.show();
+      } else if (selected === '測驗題') {
+    iframe.attribute('src', 'https://emily784.github.io/20250310/'); // 替換為測驗題的實際 URL
+    iframe.show();
   } else {
     iframe.hide();
   }
